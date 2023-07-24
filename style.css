@@ -66,3 +66,15 @@
     width: 300px;
     margin: 0px 20px 55px;
 }
+
+.r-container{
+    flex-direction: row;
+    width: 979px;
+    margin-left: 186px;
+}
+
+.row{
+    flex: 50%;
+    background-color: pink;
+    height: 260px;
+}
