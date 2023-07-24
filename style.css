@@ -4,3 +4,45 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+/*header*/
+
+.menù{
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+}
+
+.logo{
+    background-color: pink;
+    width: 5%;
+}
+
+.lista{
+    background-color: purple;
+    width: 10%;
+}
+
+.bt{
+    background-color: pink;
+    width: 7%;
+}
+
+.jumbo{
+    background-color: aquamarine;
+    height: 800px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.j-container{
+    width: 1040px;
+    height: 600px;
+    background-color: blueviolet;
+
+}
