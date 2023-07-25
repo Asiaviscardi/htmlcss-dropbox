@@ -130,12 +130,12 @@
 
 .c-container{
     width: 100%;
-    height: 955px;
+    height: 1200px;
     align-items: flex-end;
 }
 
 .card{
-    height: 900px;
+    height: 1100px;
     width: 300px;
     margin: 0px 20px 55px;
     border: 1px solid lightslategray;
@@ -178,6 +178,18 @@
 
 .pacchetto i{
     margin-right: 5px;
+}
+
+.pacchetto hr{
+    width: 46px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    opacity: 0.5;
+}
+
+.pacchetto span{
+    display: block;
+    padding-top: 20px;
 }
 
 .inner-container{
