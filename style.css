@@ -41,7 +41,6 @@
     width: 70px;
     height: 33px;
     border: none;
-    
     cursor: pointer;
     font-size: medium;
     margin-left: 20px
@@ -59,7 +58,7 @@
 
 .jumbo{
     background-color: #B4D0E7;
-    height: 800px;
+    height: 700px;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -68,8 +67,47 @@
 .j-container{
     width: 1040px;
     height: 600px;
-    background-color: blueviolet;
+    position: relative;
 }
+
+.j-container h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.descrizione{
+    width: 355px;
+    padding-top: 40px;
+}
+
+.bt button{
+    width: 220px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+    margin: 30px 0px;
+
+}
+
+.arrow{
+    align-items:flex-end;
+    height: 114px;
+
+}
+
+.arrow i{
+    font-size: 65px;
+}
+
+.j-container img{
+    width: 850px;
+    position: absolute;
+    left: 350px;
+    top: 240px;
+}
+
+
 
 /*main*/
 
