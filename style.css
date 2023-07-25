@@ -141,3 +141,15 @@
     height: 360px;
     background-color: pink;
 }
+
+.faq-container{
+    height: 720px;
+    background-color: violet;
+}
+
+.faq{
+    width: 990px;
+    height: 410px;
+    background-color: aquamarine;
+
+}
