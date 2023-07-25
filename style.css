@@ -23,23 +23,42 @@
     align-items: center;
 }
 
-.logo{
-    background-color: pink;
-    width: 5%;
+.sx{
+    margin-left: 15px;
 }
 
-.lista{
-    background-color: purple;
-    width: 10%;
+.sx li, .dx li{
+    display: inline;
+    padding-left: 40px;
+    cursor: pointer;
 }
 
-.bt{
-    background-color: pink;
-    width: 7%;
+.dx{
+    margin-right: 15px;
 }
+
+.dx button{
+    width: 70px;
+    height: 33px;
+    border: none;
+    
+    cursor: pointer;
+    font-size: medium;
+    margin-left: 20px
+}
+
+.bianco{
+    background-color: white;
+}
+
+.blu{
+    background-color: #0061FF;
+    color: white;
+}
+
 
 .jumbo{
-    background-color: aquamarine;
+    background-color: #B4D0E7;
     height: 800px;
     width: 100%;
     justify-content: center;
@@ -154,6 +173,8 @@
 
 }
 
+/*footer*/
+
 .footer-container{
     height: 570px;
     background-color: pink;
@@ -173,6 +194,6 @@
     margin-right: 100px;
 }
 
-.co{
+.ultimo{
     margin-right: 0px;
 }
