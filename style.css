@@ -153,3 +153,26 @@
     background-color: aquamarine;
 
 }
+
+.footer-container{
+    height: 570px;
+    background-color: pink;
+}
+
+.altro{
+    width: 1200px;
+    height: 415px;
+    background-color: violet;
+}
+
+.colonne{
+    width: 156px;
+    height: 100%;
+    background-color: aquamarine;
+    border: 1px solid black;
+    margin-right: 100px;
+}
+
+.co{
+    margin-right: 0px;
+}
