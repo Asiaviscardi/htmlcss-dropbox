@@ -73,15 +73,35 @@
     margin-left: 186px;
 }
 
-.row{
-    flex: 50%;
+.inner-container{
+    width: 979px;
+    margin: 0 auto;
     background-color: pink;
-    height: 260px;
+    min-width: 200px;
+    height: 250px;
 }
 
 .blocco{
     background-color: pink;
     width: 979px;
     height: 500px;
-    margin-top: 100px;
+    margin-top: 150px;
+}
+
+.sp-container{
+    height: 1110px;
+    background-color: pink;
+    margin-top: 170px;
+    padding-left: 190px;
+    padding-top: 40px;
+}
+
+.specifiche{
+    width: 282px;
+    height: 450px;
+    background-color: violet;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 60px;
+    margin-bottom: 50px;
 }
