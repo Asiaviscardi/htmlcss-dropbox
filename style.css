@@ -259,21 +259,65 @@
 }
 
 .sp-container{
-    height: 1110px;
-    background-color: pink;
-    margin-top: 170px;
-    padding-left: 190px;
-    padding-top: 40px;
+    height: 1450px;
+    margin-left: 190px;
+    margin-top: 165px;
+    flex-wrap: wrap;
+}
+
+.sp-container h2{
+    font-size: 40px;
+}
+
+.sp-img{
+    height: 220px;
+}
+
+.specifiche img{
+    width: 100%;
+}
+
+.st{
+    background-image: url(img/business-feature-switching-tools.png);
+    background-size: cover;
+}
+
+.sf{
+    background-image: url(img/business-feature-send-files-it.png);
+    background-size: cover;
+}
+
+.coo{
+    background-image: url(img/business-feature-coordinate-it.png);
+    background-size: cover;
+}
+
+.int{
+    background-image: url(img/business-feature-integrations-it.png);
+    background-size: cover;
+}
+
+.md{
+    background-image: url(img/business-feature-multi-device.png);
+    background-size: cover;
+}
+
+.se{
+    background-image: url(img/business-feature-security.png);
+    background-size: cover;
 }
 
 .specifiche{
     width: 282px;
-    height: 450px;
-    background-color: violet;
-    border: 1px solid black;
-    display: inline-block;
+    height: 500px;
     margin-right: 60px;
-    margin-bottom: 50px;
+    
+}
+
+.specifiche h3{
+    margin-bottom: 40px;
+    font-size: 25px;
+
 }
 
 .dbusiness{
