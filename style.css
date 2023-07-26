@@ -410,8 +410,26 @@
 }
 
 .free{
+    width: 100%;
     height: 360px;
-    background-color: pink;
+    background-color: #B4D0E7;
+    padding: 0px 185px;
+    align-items: center;
+    font-size: 30px;
+    color: #61082B;
+    position: relative;
+}
+
+.free button{
+    width: 298px;
+    height: 45px;
+    cursor: pointer;
+    font-size: medium;
+    background-color: white;
+    border: none;
+    position: absolute;
+    top: 138px;
+    right: 180px;
 }
 
 .faq-container{
