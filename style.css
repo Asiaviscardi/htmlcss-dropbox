@@ -464,23 +464,49 @@
 
 .footer-container{
     height: 570px;
-    background-color: pink;
+    background-color: black;
 }
 
 .altro{
     width: 1200px;
     height: 415px;
-    background-color: violet;
+    background-color: black;
+    flex-wrap: wrap;
 }
 
 .colonne{
-    width: 156px;
+    width: 160px;
     height: 100%;
-    background-color: aquamarine;
-    border: 1px solid black;
+    background-color: black;
     margin-right: 100px;
+    color: white;
+    text-align: left;
+}
+
+.colonne h2{
+    margin-bottom: 20px;
+}
+
+.colonne li{
+    list-style: none;
+    cursor: pointer;
+    margin-bottom: 15px;
 }
 
 .ultimo{
     margin-right: 0px;
+}
+
+.altro hr{
+    width: 115px;
+    color: white;
+    margin-top: 115px;
+}
+
+.altro p{
+    color: #999999;
+}
+
+.altro i{
+    margin: 0px 5px;
 }
