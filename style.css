@@ -223,10 +223,39 @@
 }
 
 .blocco{
-    background-color: pink;
     width: 979px;
     height: 500px;
     margin-top: 150px;
+    position: relative;
+}
+
+.imgpartner{
+    width: 596px;
+}
+
+.imgpartner img{
+    width: 596px;
+}
+
+.partner{
+    position: absolute;
+    top: 60px;
+    left: 650px;
+}
+
+.partner h2{
+    padding-bottom: 30px;
+}
+
+.partner button{
+    width: 157px;
+    height: 40px;
+    cursor: pointer;
+    font-size: medium;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 30px;
+
 }
 
 .sp-container{
