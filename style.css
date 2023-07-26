@@ -434,14 +434,30 @@
 
 .faq-container{
     height: 720px;
-    background-color: violet;
 }
 
 .faq{
     width: 990px;
     height: 410px;
-    background-color: aquamarine;
+}
 
+.faq h2{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.faq p{
+    padding: 30px;
+}
+
+.sezione{
+    position: relative;
+}
+
+.sezione i{
+    position: absolute;
+    top: 32px;
+    right: 10px;
 }
 
 /*footer*/
