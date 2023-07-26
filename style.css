@@ -321,9 +321,21 @@
 }
 
 .dbusiness{
-    background-color: pink;
-    height: 330px;
-    border: 1px solid black;
+    height: 200px;
+    align-items: center;
+    margin-left: 190px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.dbusiness h2{
+    font-size: 28px;
+}
+
+.dbusiness a{
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .compagnie{
