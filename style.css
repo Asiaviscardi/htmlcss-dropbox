@@ -5,7 +5,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-/*header*/
+/*header:menù*/
 
 .menù{
     height: 80px;
@@ -29,7 +29,7 @@
 
 .sx li, .dx li{
     display: inline;
-    padding-left: 40px;
+    margin-left: 40px;
     cursor: pointer;
 }
 
@@ -54,6 +54,24 @@
     background-color: #0061FF;
     color: white;
 }
+
+.menù li:hover{
+    padding-bottom: 29px;
+    border-bottom: 2px solid black;
+    color: #0061FF;
+}
+
+.dx .bianco:hover{
+    background-color: #0061FF;
+    color: white;
+}
+
+.dx .blu:hover{
+    background-color: white;
+    color: black;
+}
+
+/*Header:Jumbo*/
 
 
 .jumbo{
@@ -88,7 +106,11 @@
     cursor: pointer;
     font-size: medium;
     margin: 30px 0px;
+}
 
+.blu:hover{
+    background-color: white;
+    color: #0061FF;
 }
 
 .arrow{
@@ -99,6 +121,10 @@
 
 .arrow i{
     font-size: 65px;
+}
+
+.arrow a:hover{
+    filter: invert();
 }
 
 .j-container img{
@@ -114,14 +140,13 @@
 
 .piano{
     width: 100%;
-    height: 270px;
-    padding: 162px 184px 100px;
+    margin: 162px 184px 55px;
     font-size: 30px;
 }
 
 .cerchio{
-    height: 64px;
     padding: 0px 184px;  
+    margin-bottom: 50px;
 }
 
 .cerchio span{
@@ -130,7 +155,6 @@
 
 .c-container{
     width: 100%;
-    height: 1200px;
     align-items: flex-end;
 }
 
@@ -197,7 +221,6 @@
     width: 979px;
     margin: 0 auto;
     min-width: 200px;
-    height: 250px;
     border: 1px solid lightslategray;
 }
 
@@ -225,7 +248,6 @@
 
 .blocco{
     width: 979px;
-    height: 500px;
     margin-top: 150px;
     position: relative;
 }
@@ -259,8 +281,12 @@
 
 }
 
+.partner button:hover{
+    background-color: black;
+    color: white;
+}
+
 .sp-container{
-    height: 1450px;
     margin-left: 190px;
     margin-top: 165px;
     flex-wrap: wrap;
@@ -268,6 +294,7 @@
 
 .sp-container h2{
     font-size: 40px;
+    margin-bottom: 40px;
 }
 
 .sp-img{
@@ -312,7 +339,13 @@
     width: 282px;
     height: 500px;
     margin-right: 60px;
+    margin-bottom: 40px;
     
+}
+
+.specifiche:hover{
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 .specifiche h3{
@@ -341,17 +374,16 @@
 
 .compagnie{
     width: 100%;
-    height: 450px;
 }
 
 .sinistra, .centro, .destra{
     width: 600px;
-    height: 100%;
 }
 
 .centro{
     background-color: #F5F5F5;
     padding: 50px 45px;
+    overflow: scroll;
 }
 
 #sotto{
@@ -360,6 +392,11 @@
 
 .centro img{
     width: 50%;
+}
+
+.quadrato:hover{
+    border: 10px solid rgba(0, 0, 0, 0.2);
+    
 }
 
 .quadrato img{
@@ -432,6 +469,12 @@
     right: 180px;
 }
 
+.free button:hover{
+    background-color: #0061FF;
+    color: white;
+
+}
+
 .faq-container{
     height: 720px;
 }
@@ -441,7 +484,7 @@
     height: 410px;
 }
 
-.faq h2{
+.faq h3{
     font-size: 40px;
     margin-bottom: 60px;
 }
@@ -453,6 +496,84 @@
 .sezione{
     position: relative;
 }
+  
+.sezione h2 {
+    color:#0061FF;
+    font-size: 18px;
+    padding: 15px 15px 0;
+    display: block;
+    cursor: pointer;
+  }
+  
+.sezione p {
+    font-size: 14px;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 0 50px 0 15px;
+    z-index: 2;
+  }
+  
+.sezione ul {
+    list-style: none;
+  }
+
+.sezione ul li {
+    position: relative;
+    overflow: hidden;
+  }
+
+.sezione ul li {
+    margin-top: 20px;
+  }
+
+.sezione ul li i {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+  }
+  
+.sezione ul li i:before, ul li i:after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 3px;
+    height: 9px;
+  }
+  
+.sezione ul li i:before {
+    transform: translate(-2px, 0) rotate(45deg);
+  }
+
+.sezione ul li i:after {
+    transform: translate(2px, 0) rotate(-45deg);
+  }
+  
+.sezione ul li input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+  }
+  
+.sezione ul li input[type=checkbox]:checked ~ h2 {
+    color: #000;
+  }
+  
+.sezione ul li input[type=checkbox]:checked ~ p {
+    max-height: 0;
+    transition: .3s;
+    opacity: 0;
+  }
+.sezione ul li input[type=checkbox]:checked ~ i:before {
+    transform: translate(2px, 0) rotate(45deg);
+  }
+.sezione ul li input[type=checkbox]:checked ~ i:after {
+    transform: translate(-2px, 0) rotate(-45deg);
+  }
 
 .sezione i{
     position: absolute;
@@ -509,4 +630,8 @@
 
 .altro i{
     margin: 0px 5px;
+}
+
+.altro li:hover{
+    color: #0061FF;
 }

@@ -28,6 +28,8 @@
 
     <header>
 
+        <!--Menù-->
+
         <div class="menù flex">
 
             <div class="sx flexcentro">
@@ -56,13 +58,23 @@
 
                 </ul>
 
-                <button class="bianco">Accedi</button>
+                <form action="https://www.dropbox.com/login" target="_blank">
 
-                <button class="blu">Inizia</button>
+                    <button class="bianco">Accedi</button>
+
+                </form>
+
+                <form action="https://www.dropbox.com/plans" target="_blank">
+
+                    <button class="blu">Inizia</button>
+
+                </form>
 
             </div>
 
         </div>
+
+        <!--Jumbo-->
 
         <div class="jumbo flex">
 
@@ -78,7 +90,11 @@
 
                 <div class="bt">
 
-                    <button class="blu">Inizia la tua prova gratuita</button>
+                    <form action="https://www.dropbox.com/it/basic" target="_blank">
+
+                        <button class="blu">Inizia la tua prova gratuita</button>
+
+                    </form>
 
                     <div>Annulla in qualsiasi momento</div>
 
@@ -86,7 +102,13 @@
 
                 <div class="arrow flex">
 
-                    <i class="fa-solid fa-arrow-down fa-xl" style="color: #000000;"></i>
+                    <a href="#ancora">
+
+                        <i class="fa-solid fa-arrow-down fa-xl" style="color: #000000;"></i>
+
+                    </a>
+
+                    
 
                 </div>
 
@@ -112,11 +134,11 @@
 
             <div class="cerchio">
 
-                <input type="radio">
+                <input type="radio" name="radio">
 
                 <span>Fatturazione mensile</span>
 
-                <input type="radio">
+                <input type="radio" name="radio">
                 
                 <span>Fatturazione annuale</span>
 
@@ -152,9 +174,14 @@
 
                         <p><i class="fa-solid fa-share-nodes" style="color: #000000;"></i>Funzioni di produttività premium e condivisione file semplice e sicura</p>
 
-                        <button class="blu">Prova gratis per 30 giorni</button>
+                        <form action="https://www.dropbox.com/pro/try" target="_blank">
 
-                        <p>Oppure <a href="">acquista ora</a></p>
+                            <button class="blu">Prova gratis per 30 giorni</button>
+
+                        </form>
+                        
+
+                        <p>Oppure <a href="https://www.dropbox.com/buy/professional" target="_blank">acquista ora</a></p>
 
                         <hr>
 
@@ -199,9 +226,13 @@
 
                         <p><i class="fa-solid fa-share-nodes" style="color: #000000;"></i>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</p>
 
-                        <button class="blu">Prova gratis per 30 giorni</button>
+                        <form action="https://www.dropbox.com/try/business?sku=adv" target="_blank">
 
-                        <p>Oppure <a href="">acquista ora</a></p>
+                            <button class="blu">Prova gratis per 30 giorni</button>
+
+                        </form>
+
+                        <p>Oppure <a href="https://www.dropbox.com/buy/business/advanced" target="_blank">acquista ora</a></p>
 
                         <hr>
 
@@ -249,9 +280,14 @@
 
                         <p><i class="fa-solid fa-share-nodes" style="color: #000000;"></i>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</p>
 
-                        <button class="blu">Contattaci</button>
+                        <form action="https://experience.dropbox.com/it-it/contact" target="_blank">
 
-                        <p>Oppure <a href="">acquista ora</a></p>
+                            <button class="blu">Contattaci</button>
+
+
+                        </form>
+
+                        <p>Oppure <a href="https://www.dropbox.com/it/enterprise" target="_blank">acquista ora</a></p>
 
                         <hr>
 
@@ -289,7 +325,11 @@
 
                     <h2>Enterprise</h2>
 
-                    <button class="blu">Contatta l'ufficio vendite</button>
+                    <form action="https://experience.dropbox.com/it-it/contact" target="_blank">
+
+                        <button class="blu">Contatta l'ufficio vendite</button>
+
+                    </form>
 
                     <p><strong>Contatta l'ufficio vendite per i prezzi</strong></p>
 
@@ -321,7 +361,11 @@
 
                         <p>Trova un partner Dropbox e Hellosign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obbiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
 
-                        <button>Trova un partner</button>
+                        <form action="https://experience.dropbox.com/it-it/partner-locator" target="_blank">
+
+                            <button>Trova un partner</button>
+
+                        </form>
 
                     </span>
 
@@ -437,7 +481,7 @@
                 <h2>Più di 500.000 team utilizzano<br>Dropbox Business</h2>
                 
 
-                <a href="">Scopri di più sui nostri clienti</a>
+                <a href="https://experience.dropbox.com/it-it/customer-stories" target="_blank">Scopri di più sui nostri clienti</a>
 
             </div>
 
@@ -542,7 +586,11 @@
 
                 <h2>Porta Dropbox Business <br> nella tua azienda.</h2>
 
-                <button>Inizia la tua prova gratuita</button>
+                <form action="https://www.dropbox.com/it/basic" target="_blank">
+
+                    <button>Inizia la tua prova gratuita</button>
+
+                </form>
 
             </div>
 
@@ -552,43 +600,67 @@
 
         <section>
 
+            <a name="ancora"></a>
+
             <div class="faq-container flexcentro">
 
                 <div class="faq">
 
-                    <h2>Domande frequenti</h2>
+                    <h3>Domande frequenti</h3>
 
                     <hr>
 
                     <div class="sezione">
+                        
+                        <ul>
+                            
+                            <li>
+                                <input type="checkbox" checked>
 
-                        <p><strong>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong></p>
+                                <i></i>
 
-                        <i class="fa-solid fa-chevron-down" style="color: #000000;"></i>
+                                <h2>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h2>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae debitis iusto voluptatum doloribus rem, qui nesciunt labore tempore fugit iste deserunt incidunt error provident repudiandae laudantium quo ipsa unde perspiciatis, nihil autem distinctio! Deserunt, aspernatur.</p>
+
+                                <hr>
+
+                            </li>
+
+                            <li>
+
+                                <input type="checkbox" checked>
+
+                                <i></i>
+
+                                <h2>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h2>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quasi, quia provident facere recusandae itaque assumenda fuga veniam dicta earum dolorem architecto facilis nisi pariatur.</p>
+
+                                <hr>
+
+                            </li>
+
+                            <li>
+
+                                <input type="checkbox" checked>
+
+                                <i></i>
+
+                                <h2>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h2>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas placeat assumenda mollitia magni consequatur dolorum, quod nihil distinctio aperiam officia alias! Voluptate dolore ex officiis sit, magnam non a, eligendi pariatur aut, earum dolores tenetur ipsam id illo deleniti. Laudantium deserunt eaque ipsam voluptatum consequuntur voluptatibus sed minima ad accusamus debitis eos similique laboriosam, molestiae? Consequatur neque tempore quis. Eligendi, in ut aspernatur esse nesciunt libero.</p>
+
+                                <hr>
+
+                            </li>
+
+                        </ul>
+                          
 
                     </div>
 
-                    <hr>
-
-                    <div class="sezione">
-
-                        <p><strong>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong></p>
-
-                        <i class="fa-solid fa-chevron-down" style="color: #000000;"></i>
-
-                    </div>
-
-                    <hr>
-
-                    <div class="sezione">
-
-                        <p><strong>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong></p>
-
-                        <i class="fa-solid fa-chevron-down" style="color: #000000;"></i>
-
-                    </div>
-
-                    <hr>
+                    
 
                 </div>
 
@@ -613,9 +685,13 @@
                     <ul>
 
                         <li>Applicazione desktop</li>
+
                         <li>Perchè Dropbox</li>
+
                         <li>Piani</li>
+
                         <li>Sicurezza</li>
+                        
                         <li>Funzioni</li>
                     
                     </ul>
