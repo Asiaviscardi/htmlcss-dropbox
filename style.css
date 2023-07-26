@@ -180,7 +180,8 @@
     margin-right: 5px;
 }
 
-.pacchetto hr{
+.pacchetto hr,
+.centro hr{
     width: 46px;
     margin-top: 30px;
     margin-bottom: 15px;
@@ -340,15 +341,62 @@
 
 .compagnie{
     width: 100%;
-    height: 500px;
-    background-color: pink;
+    height: 450px;
 }
 
 .sinistra, .centro, .destra{
     width: 600px;
     height: 100%;
-    border: 1px solid black;
-    background-color: aquamarine;
+}
+
+.centro{
+    background-color: #F5F5F5;
+    padding: 50px 45px;
+}
+
+#sotto{
+    padding-top: 50px;
+}
+
+.centro img{
+    width: 50%;
+}
+
+.quadrato img{
+    width: 50%;
+    filter: invert();
+}
+
+.designit{
+    background-color: #A2D39B;
+}
+
+.florida{
+    background-color: #0093CE;
+}
+
+.arizona{
+    background-color: #61082B;
+}
+
+.topps{
+    background-color: #FF1C1C;
+}
+
+.worldbr{
+    background-color: #D5001F;
+}
+
+.lonely{
+    background-color: #0D2481;
+}
+
+.hearst{
+    background-color: #B4D0E7;
+}
+
+.clear{
+    background-color: #FFD830;
 }
 
 .superiore, .inferiore{
@@ -359,8 +407,6 @@
 .quadrato{
     width: 100%;
     height: 100%;
-    background-color: blueviolet;
-    border: 1px solid black;
 }
 
 .free{
